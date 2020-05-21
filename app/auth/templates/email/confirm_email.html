@@ -1,4 +1,4 @@
-<p>Уважаемый пользователь, {{ user.username }}]</p>
+<p>Уважаемый пользователь, {{ user.username }}</p>
 <p>Что бы подвердить эл. почту, вы должны перейти по 
 <a href="{{ url_for('auth.confirm_email', token=token, _external=True) }}">
    ссылке
